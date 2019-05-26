@@ -322,7 +322,7 @@
 }
 
 \newcommand{\twentyitem}[5]{%
-	#1&\parbox[t]{0.81\textwidth}{%
+	{\scriptsize#1}&\parbox[t]{0.81\textwidth}{%
 		\textbf{#2}% 
 		\hfill%
 		{\footnotesize#3}\\%
@@ -345,7 +345,7 @@
 }
 
 \newcommand{\twentyitemmedium}[3]{%
-	#1&\parbox[t]{0.81\textwidth}{%
+	{\scriptsize#1}&\parbox[t]{0.81\textwidth}{%
 		\textbf{#2}% 
 		\hfill%
 		{\footnotesize#3}
@@ -367,7 +367,7 @@
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.81\textwidth}{%
+	{\scriptsize#1}&\parbox[t]{0.81\textwidth}{%
 		#2%
 	}\\
 }
