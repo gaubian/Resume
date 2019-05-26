@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh Gadgil
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+%\usepackage{multicol}
+
+% Command for printing skill progress bars
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Algorithms},
+        \textbf{Optimization},
+        \textbf{Graph Theory},
+        \textbf{Machine Learning}
+    }
+}
+
+% \tools{{Tensor Flow/4.5},{Photoshop/2.5},{Gurobi/4},{Android Studio/3}}
+
+\languages{{SQL/2.5},{Python/3.4},{OCaml/5.5},{ \LaTeX /3},{Java/2.5},{HTML \slash JS /3.2},{C++/4.5}}
+
+\natlang{{Spanish/3.5},{French/5.5},{English/4.5}}	
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Guillaume Aubian} % Your name
+\cvjobtitle{Computer Scientist} % Job title/career
+
+\cvlinkedin{\href{https://www.linkedin.com/in/gaubian/}{linkedin.com/gaubian}}
+\cvgithub{\href{https://github.com/gaubian}{github/gaubian}}
+\cvnumberphone{(+33)6 74 38 07 21} % Phone number
+\cvsite{\href{pro.gaubian.xyz}{pro.gaubian.xyz}} % Personal website
+\cvmail{pro@gaubian.xyz} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+      \hfill
+
+    	\center
+
+%    	\skills  
+
+      \hfill
+     
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{Sep 2016- Mar 2017}
+        {MSc. in Optimization and Operations Research}
+        {Mines Paris}
+        {}
+	{Followed $1^{st}$ semester courses, and ranked 1st on them}
+	\twentyitem
+    	{Sep 2014- Sep 2017}
+        {Computer Science Department}
+        {É.N.S. Paris-Saclay}
+        {}
+	{Normalien. Got a "licence" (B.Sc) and a first year of M.Sc}
+	\twentyitem
+    	{Sep 2012- Sep 2014}
+        {«Classes Préparatoires aux Grandes Écoles»}
+        {MPSI-MP*}
+        {}
+        {Specialized in Mathematics, Physics and Computer Science}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+
+\section{Awards}
+\begin{twentymedium}
+   \twentyitemmedium
+	{Mar '19 \& Nov '18}
+	{Regions Jobs}
+	{$3^{rd}$ \& $3^{rd}$ on $\approx 7000$ participants}
+   \twentyitemmedium
+    	{Sep '17}
+	{Meilleur Dev' de France}
+        {$5^{th}$ on $\approx 2000$ participants}
+   \twentyitemmedium
+    	{Oct '17}
+	{Le Shaker}
+        {$2^{nd}$ on $\approx 3200$ participants}
+   \twentyitemmedium
+	{Mar-Oct '16 Oct '17}
+        {IOP6}
+	{$4^{th}$ \& $3^{rd}$ \& $1^{st}$ on $\approx 100$ participants}
+    \twentyitemmedium
+    	{Mar '15 Mar '17}
+        {Google Hash Code}
+        {$43^{th}$ \& $64^{th}$ on $\approx 9000$ teams}
+   \twentyitemmedium
+	{Sep '15 '16 '17}
+        {ACM-ICPC SWERC}
+	{$21^{st}$  \& $27^{th}$ \& $26^{th}$ on $\approx 80$ teams}
+   \twentyitemmedium
+    	{May '15}
+        {Prologin}
+        {$27^{th}$ on $\approx 1000$ participants}
+   
+\end{twentymedium}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{Feb-Aug 2017}
+        {Research in Graph Theory \& Clustering}
+        {Paris-Dauphine University}
+        {}
+        {Studied how to partition a graph to minimize classes' densities}
+        
+    \twentyitem
+   		{Apr-Aug 2016}
+        {Research in Machine Learning \& Parallelism}
+        {EPFL}
+        {}
+        {Parallelized a gradient descent algorithm on Android devices}
+        
+     \twentyitem
+   		{Apr-Jul 2015}
+        {Research in Graph Theory}
+        {É.N.S. Lyon}
+        {}
+        {Proved we can partition $k$-regular graphs $G$ in $\frac{|V(G)|}{k+1}$ disjoint paths}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\section{Activities}
+
+\begin{twenty} % Environment for a list with descriptions
+
+	\twentyitem
+	{Mar 2017-Feb 2018}
+        {ARES President}
+        {Paris-Saclay University}
+        {}
+        {President of the Association Réseau Étudiante de Saclay}
+
+	\twentyitem
+    	{Jan 2015-…}
+        {Cr@ns Active Member}
+        {É.N.S. Paris-Saclay}
+        {}
+        {Active member of the É.N.S.'s network association}
+        
+    \twentyitem
+   	{Sep 2014-…}
+        {Algorithmic Club founding and active member}
+        {É.N.S. Paris-Saclay}
+        {}
+        {Organized conferences and several training sessions}
+        
+     \twentyitem
+   	{Sep 2015-Jan 2017}
+        {Active organizer of national algorithmic contest}
+        {Prologin}
+        {}
+        {Created and corrected written and machine algorithmic problems}
+        
+        
+	%\twentyite m{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%\begin{minipage}[t]{0.5\textwidth}
+%      \section{Interests}
+%
+%      \hfill
+%
+%    	\skills
+%
+%\end{minipage}
+%\begin{minipage}[t]{0.5\textwidth}
+%  \section{Also}
+%  \hfill
+%  \begin{itemize}
+%     \item \textbf{Machine Learning}
+%     \item \textbf{Cryptography}
+%     \item \textbf{Constraint Programming}
+%     \item \textbf{Network}
+%  \end{itemize}
+%\end{minipage}
+    	
+\end{document} 
